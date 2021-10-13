@@ -1,0 +1,41 @@
+[{
+  "weather": "Clouds",
+  "detail": "overcast clouds"
+  "icon": "04d",
+  "tempk": 310.15,
+  "tempc": 37,
+  "temp_maxc": 37,
+  "temp_minc": 37,
+  "humidity": 42,
+  "pressure": 998,
+  "maxtemp": 310.15,
+  "mintemp": 310.15,
+  "windspeed": 4.74,
+  "winddirection": 181,
+  "location": "Hanoi",
+  "sunrise": 1624745847,
+  "sunset": 1624794099,
+  "clouds": 100,
+  "update": 2021-09-19T02:09:41.000+00:00
+  "description": "The weather in Hanoi at coordinates: 21.0245, 105.8412 is Clouds (overcast clouds)."
+},{
+   "weather": "Clouds",
+  "detail": "overcast clouds",
+  "icon": "04d",
+  "tempk": 310.15,
+  "tempc": 37,
+  "temp_maxc": 37,
+  "temp_minc": 37,
+  "humidity": 42,
+  "pressure": 998,
+  "maxtemp": 310.15,
+  "mintemp": 310.15,
+  "windspeed": 4.74,
+  "winddirection": 181,
+  "location": "Hanoi",
+  "sunrise": 1624745847,
+  "sunset": 1624794099,
+  "clouds": 100,
+  "update": 2021-09-20T02:09:41.000+00:00
+  "description": "The weather in Hanoi at coordinates: 21.0245, 105.8412 is Clouds (overcast clouds)."
+}]

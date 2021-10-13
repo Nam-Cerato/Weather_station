@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "615326b838cbdb8ab7678142"
+  },
+  "weather": "Clouds",
+  "detail": "overcast clouds",
+  "icon": "04d",
+  "tempk": 310.15,
+  "tempc": 37,
+  "temp_maxc": 37,
+  "temp_minc": 37,
+  "humidity": 42,
+  "pressure": 998,
+  "maxtemp": 310.15,
+  "mintemp": 310.15,
+  "windspeed": 4.74,
+  "winddirection": 181,
+  "location": "Hanoi",
+  "sunrise": 1624745847,
+  "sunset": 1624794099,
+  "clouds": 100
+},{
+  "_id": {
+    "$oid": "615326f338cbdb8ab7678143"
+  },
+  "weather": "Clouds",
+  "detail": "overcast clouds",
+  "icon": "04d",
+  "tempk": 310.15,
+  "tempc": 37,
+  "temp_maxc": 37,
+  "temp_minc": 37,
+  "humidity": 42,
+  "pressure": 998,
+  "maxtemp": 310.15,
+  "mintemp": 310.15,
+  "windspeed": 4.74,
+  "winddirection": 181,
+  "location": "Hanoi",
+  "sunrise": 1624745847,
+  "sunset": 1624794099,
+  "clouds": 100
+}]

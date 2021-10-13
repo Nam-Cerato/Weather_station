@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "615c6468ac7d2519cfcc294e"
+  },
+  "location": "hanoi",
+  "data": {
+    "pest": 2,
+    "weather": "Clouds",
+    "detail": "overcast clouds",
+    "icon": "04d",
+    "tempk": 310.15,
+    "tempc": 37,
+    "temp_maxc": 37,
+    "temp_minc": 37,
+    "humidity": 42,
+    "pressure": 998,
+    "maxtemp": 310.15,
+    "mintemp": 310.15,
+    "windspeed": 4.74,
+    "winddirection": 181,
+    "sunrise": 1624745847,
+    "sunset": 1624794099,
+    "clouds": 100,
+    "description": "The weather in Hanoi at coordinates: 21.0245, 105.8412 is Clouds (overcast clouds)."
+  }
+}]
