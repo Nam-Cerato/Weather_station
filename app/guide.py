@@ -11,6 +11,10 @@ def chlorophyll_meter_SPAD502PLUS():
 def chlorophyll_meter_Spectrum():
       return render_template('guide/chlorophyll_meter_Spectrum.html')
 
+@guide.route('/Portable_Leaf_Area_Meter_CI_202' , methods=['GET'])
+def Portable_Leaf_Area_Meter_CI_202():
+      return render_template('guide/Portable_Leaf_Area_Meter_CI_202.html')
+
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
       return render_template('guide/guide.html')
