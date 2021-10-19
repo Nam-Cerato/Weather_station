@@ -28,6 +28,15 @@ def Gamma_Sciencetific_Spectrometter_PG200N():
 def Light_Meter_Extech_SLD400():
       return render_template('guide/Light_Meter_Extech_SLD400.html')
 
+
+@guide.route('/SWXB-4G-EU_BR-V2' , methods=['GET'])
+def SWXB_4G_EU_BR_V2():
+      return render_template('guide/SWXB-4G-EU_BR-V2.html')
+
+@guide.route('/SWXB-W' , methods=['GET'])
+def SWXB_W():
+      return render_template('guide/SWXB-W.html')
+
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
       return render_template('guide/guide.html')
