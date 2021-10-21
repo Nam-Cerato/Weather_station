@@ -272,7 +272,6 @@ md = {
     }
   },
 
-  
   showNotification: function(from, align) {
     type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
 
