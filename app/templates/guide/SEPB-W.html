@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SEPB-W</title>
+    <title>SEPB-W</title>
 </head>
-<body>
-Đang hoàn thiện ...
+<body style="font-size: 20px;">
+  <h2> Hướng dẫn sử dụng SEPB-W</h2> 
+  <h4>1. Bước 1: Lắp Anten</h4>
+  <p>Do anten Wifi đã được tích hợp sẵn bên trong hộp thiết bị nên không cần lắp thêm anten bên ngoài. 
+    Người sử dụng có thể truyền nhận dữ liệu cảm biến thông qua giao tiếp WiFi (2.4Ghz) lên Internet 
+    trực tiếp (hoặc có thể kết nối đến Meshlium gateway M4G-802-EU) như hình bên dưới: <br>
+    <img src="../../static/img_guide/SEPB-W/1.png" alt="img"> <br>
+    <img src="../../static/img_guide/SEPB-W/2.png" alt="img">
+    </p>
+
+    <h4>2. Bước 2: Lắp cảm biến:</h4>
+    <p>
+        Sản phẩm Smart Environment PRO cho phép gắn tối đa 6x cảm biến trong ứng dụng nông nghiệp và 
+        đo chất lượng môi trường khí cùng lúc (chi tiết xem tại link:   <br>
+        <a href="https://development.libelium.com/gases_pro_sensor_guide/sensors#starting-with-the-gas-sensors">https://development.libelium.com/gases_pro_sensor_guide/sensors#starting-with-the-gas-sensors)</a>
+        <br>
+        Tuỳ theo các socket A, B, C, D, E, F (các ngỏ vào dùng để gắn cảm biến), mà các cảm biến phù hợp 
+được sử dụng để gắn trực tiếp theo hướng dẫn sau: <br>
+<img src="../../static/img_guide/SEPB-W/3.png" alt="img">
+<br>
+<img src="../../static/img_guide/SEPB-W/4.png" alt="img">
+    </p>
+<h4>3. Bước 3: Cách cấp nguồn và khởi động thiết bị:</h4>\
+<p>Thiết bị khi khách hàng nhận được đã được PHA sạc đầy pin. Để triển khai ứng dụng thực tế, bên 
+    dưới là các cách cấp nguồn cho thiết bị (tuỳ theo vị lắp đặt mà khách hàng có thể chọn 1 trong 
+    những cách sau):
+    <br>
+    1. Cấp nguồn qua điện lưới 220V AC <br>
+2. Cấp nguồn qua tấm pin năng lượng mặt trời <br>
+3. Cấp nguồn qua mô đun EBM (External Battery Module) <br>
+<img src="../../static/img_guide/SEPB-W/5.png" alt="img"> <br>
+<img src="../../static/img_guide/SEPB-W/6.png" alt="img"> <br>
+<img src="../../static/img_guide/SEPB-W/7.png" alt="img"> <br>
+Sau khi lắp nguồn cho thiết bị, bước tiếp theo là khởi động thiết bị bằng nút nhấn bên dưới: <br>
+<img src="../../static/img_guide/SEPB-W/8.png" alt="img"> <br>
+Khi nhấn nút nguồn, sẽ có đèn led nhấp nháy khá nhanh, thiết bị sẽ tự hoạt động theo cấu hình mặc 
+định bên trong. Người dùng có thể tuỳ chỉnh cấu hình theo ứng dụng thực tế được mô tả trong 
+bước tiếp theo. <br>
+<i>Trường hợp nếu nguồn sắp hết, có thể dùng dây cáp có đầu 2 đầu USB (Type B) gắn thiết bị, đầu còn lại gắn vào cục sạc
+    USB tiêu chuẩn hoặc có thể gắn trực tiếp vào máy tính qua cổng USB bình thường để sạc pin cho thiết bị. Lúc này 
+    KHÔNG cần bật nút nguồn trên thiết bị, pin bên trong sẽ tự động được sạc, như hình ví dụ bên dưới:</i>
+</p>
+
+<h4>4. Bước 4: Cấu hình</h4>
+<p>Thiết bị này có tên là <b>Smart Environment PRO</b> , dùng trong nông nghiệp hoặc trong môi trường 
+    không khí, để gắn với các cảm biến đo chất lượng môi trường nông nghiệp, chất lượng môi trường 
+    khí (ví dụ đo các giá trị như thời tiết, các chỉ tiêu chất lượng của đất như nhiệt độ, độ ẩm, áp suất 
+    không khí hay các chỉ tiêu AQI như CO2, NO2, SO2,…v.v và gửi giá trị đo được đến Internet trực tiếp 
+    hay thông qua thiết bị Meshlium trung tâm có hỗ trợ cùng giao tiếp WiFi (2.4Ghz). <br>
+    1. Tải và cài đặt môi trường IDE để phát triển và cấu hình tại liên kết: <br>
+   <a href="https://development.libelium.com/plug-and-sense/software"> https://development.libelium.com/plug-and-sense/software</a>      
+   <br>
+   2. Xem tài liệu hướng dẫn cấu hình tại liên kết: <br>
+   <a href="https://development.libelium.com/plug-andsense/documentation/programming">https://development.libelium.com/plug-andsense/documentation/programming</a>
+    <br>
+    3. Tham khảo các ví dụ mẫu tại liên kết: <br>
+    <a href="https://development.libelium.com/plug-and-sense/codeexamples">https://development.libelium.com/plug-and-sense/codeexamples</a>
+    4. Để cấu hình theo các ứng dụng cụ thể cho dòng sản phẩm Smart Environment PRO, tham khảo 
+chi tiết tại liên kết: <br>
+<a href="https://development.libelium.com/gases_pro_sensor_guide/library-for-gassensors#before-starting"> https://development.libelium.com/gases_pro_sensor_guide/library-for-gassensors#before-starting</a>
+</p>
 </body>
 </html>
