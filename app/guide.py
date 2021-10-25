@@ -37,6 +37,23 @@ def SWXB_4G_EU_BR_V2():
 def SWXB_W():
       return render_template('guide/SWXB-W.html')
 
+@guide.route('/SEPB-W' , methods=['GET'])
+def SEPB_W():
+      return render_template('guide/SEPB-W.html')
+
+@guide.route('/SAXB-W' , methods=['GET'])
+def SAXB_W():
+      return render_template('guide/SAXB-W.html')
+
+@guide.route('/SAXB-802' , methods=['GET'])
+def SEPB_802():
+      return render_template('guide/SAXB-802.html')
+
+@guide.route('/M4G-802-EU' , methods=['GET'])
+def M4G_802_EU():
+      return render_template('guide/M4G-802-EU.html')
+
+
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
       return render_template('guide/guide.html')
