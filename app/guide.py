@@ -53,6 +53,25 @@ def SEPB_802():
 def M4G_802_EU():
       return render_template('guide/M4G-802-EU.html')
 
+@guide.route('/ECLIPSE_E200' , methods=['GET'])
+def ECLIPSE_E200():
+      return render_template('guide/ECLIPSE_E200.html')
+
+@guide.route('/SMZ745' , methods=['GET'])
+def SMZ745():
+      return render_template('guide/SMZ745.html')
+
+@guide.route('/NIS-ELEMENT-D' , methods=['GET'])
+def NIS_ELEMENT_D():
+      return render_template('guide/NIS-ELEMENT-D.html')
+
+@guide.route('/BUONGSINHTRUONG' , methods=['GET'])
+def BUONGSINHTRUONG():
+      return render_template('guide/BUONGSINHTRUONG.html')
+
+@guide.route('/labostar-pro-de' , methods=['GET'])
+def labostar_pro_de():
+      return render_template('guide/labostar-pro-de.html')
 
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
