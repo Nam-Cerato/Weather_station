@@ -73,6 +73,14 @@ def BUONGSINHTRUONG():
 def labostar_pro_de():
       return render_template('guide/labostar-pro-de.html')
 
+@guide.route('/Camera-camtay' , methods=['GET'])
+def Camera_camtay():
+      return render_template('guide/Camera-camtay.html')
+
+@guide.route('/Mastercycler-nexus' , methods=['GET'])
+def Mastercycler_nexus():
+      return render_template('guide/Mastercycler-nexus.html')
+
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
       return render_template('guide/guide.html')
