@@ -81,6 +81,22 @@ def Camera_camtay():
 def Mastercycler_nexus():
       return render_template('guide/Mastercycler-nexus.html')
 
+@guide.route('/TUANTOANSINHHOC' , methods=['GET'])
+def TUANTOANSINHHOC():
+      return render_template('guide/TUANTOANSINHHOC.html')
+
+@guide.route('/TUAMNUOIVISINH' , methods=['GET'])
+def TUAMNUOIVISINH():
+      return render_template('guide/TUAMNUOIVISINH.html')
+
+@guide.route('/NOIHAPTIETTRUNG' , methods=['GET'])
+def NOIHAPTIETTRUNG():
+      return render_template('guide/NOIHAPTIETTRUNG.html')
+
+@guide.route('/MAYDONGKHO' , methods=['GET'])
+def MAYDONGKHO():
+      return render_template('guide/MAYDONGKHO.html')
+
 @guide.route('/huongdansudung' , methods=['GET'])
 def huongdan():
       return render_template('guide/guide.html')
